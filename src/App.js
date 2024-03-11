@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Student from './Students';
 import GetInput from './Components/GetInput';
@@ -25,6 +26,13 @@ import UseEffect from './Components/UseEffect Hook/UseEffect';
 import { useEffect } from 'react';
 import Speficuseeffct from './Components/UseEffect Hook/Speficuseeffct';
 import MainEffect from './Components/UseEffect Hook/MainEffect';
+import BasicExample from './Components/Bootstrap/Boot';
+import Handlearray from './Components/Handle array with list/Handlearray';
+import BootList from './Components/ListWithBootstrip/BootList';
+import Nested from './Components/NastedArray/NestedArray';
+import Reusecompo from './Components/Reuse COmpo/Reusecompo';
+import { Fragment } from './Components/Fragment in react/Fragment';
+import Lifting from './Components/LiftingUpState/Lifting';
 
 
 const globle = createContext();
@@ -108,6 +116,29 @@ function App() {
 
       {/* main effcet called */}
       <MainEffect />
+
+
+      <BasicExample />
+
+      {/* Handle arry called// */}
+
+      <Handlearray />
+
+      {/* bootstrip list' */}
+      <BootList />
+
+      {/* called Nested arru */}
+      <Nested/>
+      {/* called Reusecompo */}
+      <Reusecompo/>
+
+      {/* react Fragment called' */}
+
+      <Fragment/>
+
+      {/* Lifting up state' */}
+      <Lifting/>
+      
 
 
 
