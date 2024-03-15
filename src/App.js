@@ -33,6 +33,14 @@ import Nested from './Components/NastedArray/NestedArray';
 import Reusecompo from './Components/Reuse COmpo/Reusecompo';
 import { Fragment } from './Components/Fragment in react/Fragment';
 import Lifting from './Components/LiftingUpState/Lifting';
+import { PureCOmo } from './Components/Pure componets/Purecompo';
+import Usememoo from './Components/Usememo/Usememoo';
+import Reff from './Components/RefWIthExmpale/Usereff';
+import Userefff from './Components/RefWIthExmpale/Usereff';
+import ParentReff from './Components/UseREff function/ParentReff';
+import Controlcompo from './Components/Contorls compo/Controlcompo';
+import Hoc from './Components/HOC-high-oderCompo/Hoc';
+
 
 
 const globle = createContext();
@@ -53,8 +61,7 @@ function App() {
   return (
 
 
-    <div className="App">
-
+   <>
 
       <Student name="himashu" email="himansh@gamil.com" />
 
@@ -128,42 +135,43 @@ function App() {
       <BootList />
 
       {/* called Nested arru */}
-      <Nested/>
+      <Nested />
       {/* called Reusecompo */}
-      <Reusecompo/>
+      <Reusecompo />
 
       {/* react Fragment called' */}
 
-      <Fragment/>
+      <Fragment />
 
       {/* Lifting up state' */}
-      <Lifting/>
+      <Lifting />
+
+      {/* purecompoosts */}
+      <PureCOmo />
+
+      {/* usememo cled/ */}
+      {/* 
+       <Usememoo/> */}
+      {/* refuse called' */}
+      {/* <Reff /> */}
+
+
+      {/* usereff call in function' */}
+      {/* <ParentReff/> */}
+      <Controlcompo />
+
+      {/* high oder compo call' */}
+      <Hoc />
+     
+
+   </>
+
+
       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
+      
 
 
   );
 }
 
-export default App;
+      export default App;
