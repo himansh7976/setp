@@ -40,6 +40,8 @@ import Userefff from './Components/RefWIthExmpale/Usereff';
 import ParentReff from './Components/UseREff function/ParentReff';
 import Controlcompo from './Components/Contorls compo/Controlcompo';
 import Hoc from './Components/HOC-high-oderCompo/Hoc';
+import Page from './Components/Route Page not Found 404/Page';
+import Forms from './Components/formHandling/FormHandle';
 
 
 
@@ -61,7 +63,7 @@ function App() {
   return (
 
 
-   <>
+    <>
 
       <Student name="himashu" email="himansh@gamil.com" />
 
@@ -162,16 +164,24 @@ function App() {
 
       {/* high oder compo call' */}
       <Hoc />
-     
+      {/* page not found 404 */}
 
-   </>
+      <Page />
+      <Forms />
 
 
-      
-      
+
+
+
+
+    </>
+
+
+
+
 
 
   );
 }
 
-      export default App;
+export default App;
